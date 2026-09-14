@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789185356183,
+      "tag": "0000_postulaciones_contratos_cobros_lista_negra",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789185376440,
+      "tag": "0001_politicas_storage_cvs",
+      "breakpoints": true
+    }
+  ]
+}
