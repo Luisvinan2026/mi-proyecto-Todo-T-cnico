@@ -61,7 +61,7 @@ CREATE POLICY "admin gestiona datos bancarios" ON public.datos_bancarios
   WITH CHECK (public.has_role(auth.uid(), 'admin'));
 
 INSERT INTO public.datos_bancarios (banco, tipo_cuenta, numero_cuenta, identificacion, titular)
-VALUES ('Banco Pichincha', 'Corriente', '2100000000', '0999999999001', 'Dispatch7 S.A.');
+VALUES ('Banco de Loja', 'Corriente', '2100000000', '0999999999001', 'Dispatch7 S.A.');
 
 -- 4. Lista negra
 CREATE TABLE IF NOT EXISTS public.lista_negra (
